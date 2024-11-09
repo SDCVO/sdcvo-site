@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+body p {
+    font-size: 18px;
+    margin-left: 2%;
+}
+
+body b{
+    color: rgb(98, 0, 255);
+}
+
+body h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(98, 0, 255);
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header a {
+    color: rgb(98, 0, 255);
+}
+
+.nav-list {
+    display: flex;
+    text-align: right;
+    margin-right: 3%;
+    font-size: 18px;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-left: 10px;
+}
