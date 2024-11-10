@@ -48,6 +48,10 @@ header a {
     font-size: 18px;
 }
 
+.nav-list ul {
+    display: flex;
+}
+
 .nav-list li {
     list-style-type: none;
     margin-left: 10px;
