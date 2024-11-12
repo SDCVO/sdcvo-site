@@ -3,19 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDCVO</title>
+    <meta name="description" content="Personal website of SDCVO, someone who is working on AI, Deep Learning, Computer Vision and Graphic Rendering.">
+    <meta name="keywords" content="SDCVO, AI, Deep Learning, Computer Vision, Graphic Rendering">
+    <meta name="author" content="SDCVO">
+
     <link rel="stylesheet" href="css/main.css">
+    <title>SDCVO</title>
+    
+    <style>
+        :root {
+            --main-color: rgb(98, 0, 255);
+        }
+        body {
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        header {
+            background-color: black;
+            color: var(--main-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header li {
+            list-style-type: none;
+            margin-left: 10px;
+        }
+        header a {
+            color: var(--main-color)
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: var(--main-color);
+        }
+        p {
+            font-size: 18px;
+            margin-left: 2%;
+        }
+        body b {
+            color: var(--main-color);
+        }
+    </style>
 </head>
 
-<body>
+<body style="background-color: black; color: white; font-family: 'JetBrains Mono', monospace;">
     <header>
-        <a href="index.html"><h1>SDCVO</h1></a>
-        <div class="nav-list">
-            <ul>
+        <a href="index.html"><h1 style="margin-left: 10px;">SDCVO</h1></a>
+        <div class="nav-list" style="display: flex; text-align: right; margin-right: 3%;">
+            <ul style="list-style-type: none; display: flex; font-size: 18px;">
                 <li><a href="index.html">home</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="#">thoughts</a></li>
                 <li><a href="#">projects</a></li>
-                <li><a href="#">resume</a></li>
+                <li><a href="#">resources</a></li>
                 <li><a href="https://www.x.com/SDCVO_">contact</a></li>
             </ul>
         </div>
@@ -25,7 +68,7 @@
     <p>page still in construction... &#128531;</p>
     <br>
 
-    <h2># latest blog posts</h2>
+    <h2># latest thoughts</h2>
     <p> nothing here yet... &#128128;</p>
 
     <h2># latest projects</h2>
